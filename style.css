@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  background-color: #1E2026;
+}
+
+h2{
+  font-family: Roboto, sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  color: darkgray;
+  width: 650px;
+  margin: 10px 0px 10px 0px;
+}
+
+p{
+  font-family: Roboto, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  width: auto;
+  color: gray;
+  display: inline;
+
+}
+
+button{
+  background-color: #181716;
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border-style: solid;
+  border-color: #ED2424;
+  display: block;
+}
+
+img { 
+  width: 200px;
+}
+
+a {
+  flex: 1 0 auto;
+  color: ghostwhite;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  align-self: center;
+  width: auto;
+  margin: 10px 0px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #181716;
+  padding: 10px;
+}
+
+.hdlogo{
+  margin-left: 20px;
+}
+
+.hdlnks{
+  align-self: center;
+}
+
+.hdlink{
+  margin-right: 10px;
+}
+
+.intro{
+  display: flex;
+  flex-direction: row;
+  justify-items: space-evenly;
+  align-items: center;
+}
+
+.rhold{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 2 0 auto;
+  justify-content: flex-start;
+  align-self: center;
+  width: 600px;
+}
+
+.rhold > h1,
+.rhold > p
+{
+  flex: 0 2 auto;
+  width: 500px;
+}
+
+.panimage{
+  flex: .5 0 auto;
+  margin: 20px 0px 20px 0px;
+  width: 400px;
+}
+
+.spacer{
+  flex: 3 1 auto;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  background-color: #23252C;
+}
+
+.info h2{
+  color: white;
+  text-align: center;
+  align-self: center;
+}
+
+.content{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.combo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 2 1 auto;
+}
+
+.combo > p{
+  font-size: large;
+  font-weight: bolder;
+  display: inline;
+  text-align: center;
+}
+
+.icon{
+  width: 100px;
+  flex: 2 1 auto;
+}
