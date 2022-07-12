@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-  height: 100vh;
+  height: 100%;
   margin: 0;
-  overflow: hidden;
   font-family: Roboto, sans-serif;
   background-color: #1E2026;
+}
+
+.container{
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 h2{
@@ -14,27 +18,25 @@ h2{
   font-size: 40px;
   color: darkgray;
   width: 650px;
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 p{
   font-family: Roboto, sans-serif;
   font-weight: lighter;
   font-size: 15px;
-  width: auto;
   color: gray;
-  display: inline;
 
 }
 
 button{
   background-color: #181716;
-  border-radius: 4px;
-  width: 80px;
-  height: 30px;
+  border-radius: 6px;
+  width: 110px;
+  height: 45px;
   font-family: Roboto, sans-serif;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   color: white;
   border-style: solid;
   border-color: #ED2424;
@@ -57,7 +59,8 @@ a {
   margin: 10px 0px;
 }
 
-.header{
+.header,
+.footer{
   display: flex;
   justify-content: space-between;
   background-color: #181716;
@@ -74,34 +77,38 @@ a {
 
 .hdlink{
   margin-right: 10px;
+  font-size: 25px;
+  font-weight: 300;
+  color: grey;
 }
 
 .intro{
   display: flex;
   flex-direction: row;
-  justify-items: space-evenly;
+  justify-content: center;
   align-items: center;
+  padding: 300px 0px 300px 0px;
 }
 
 .rhold{
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  flex: 2 0 auto;
   justify-content: flex-start;
-  align-self: center;
-  width: 600px;
+  align-self: flex-start;
+  width: 650px;
+  flex: 0 1;
 }
 
 .rhold > h1,
 .rhold > p
 {
-  flex: 0 2 auto;
+  flex: 1 1 auto;
   width: 500px;
 }
 
 .panimage{
-  flex: .5 0 auto;
+  flex: .35 1;
   margin: 20px 0px 20px 0px;
   width: 400px;
 }
@@ -144,4 +151,59 @@ a {
 .icon{
   width: 100px;
   flex: 2 1 auto;
+}
+
+.quote{
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.qtext{
+  font-style: italic;
+  font-size: 25px;
+  color: white;
+  
+}
+
+.uname{
+  font-size: 25px;
+  color: rgb(129, 129, 129);
+  align-self: flex-end;
+}
+
+.logpop{
+  flex: 0 1 0;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin: 90px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ED2424;
+  color:  #181716;
+}
+
+.logpop h2{
+  color:  #181716;
+}
+
+.logpop p{
+  color: #161616;
+  font-weight: bold;
+}
+
+.boxtn{
+  align-self: center;
+}
+
+#b{
+  margin-top: 0px;
+}
+
+.footer{
+  justify-content: center;
 }
